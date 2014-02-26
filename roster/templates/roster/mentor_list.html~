@@ -1,0 +1,33 @@
+<!-- roster/templates/roster/course_list.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>All Mentors</h2>
+    <ul>
+    {% for mentor in mentors %}
+    {# Each "mentor" is a mentor model object. #}
+    <li><a href="{{ course.id }}">{{ mentor.name }}</a> | {{ mentor.position}}</li>
+{% endfor %}
+</ul>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if mentors.has_previous %}
+            <a href="?page={{ mentors.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ mentors.number }} of {{ courses.paginator.num_pages }}.
+        </span>
+
+        {% if mentors.has_next %}
+            <a href="?page={{ mentors.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+    
+    
+    
+    
+    
+{% endblock %}

@@ -1,0 +1,12 @@
+<!-- new file: roster/templates/roster/course.html -->
+
+{% extends "base.html" %}
+
+
+{% block content %}
+<h2>Mentor: {{ mentor.name }}</h2>
+<p>Details</p>
+<ul>
+    <li>{{ mentor.position }}</li>   
+</ul>
+{% endblock %}

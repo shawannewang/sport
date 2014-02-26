@@ -1,0 +1,36 @@
+<!-- new file: roster/templates/roster/student_list.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>All Members</h2>
+    <ul>
+    {% for member in members %}
+    {# Each "member" is a member model object. #}
+    <li><a href="{{ member.id }}">{{ member.name }}</a> | {{ member.number }}</li>
+{% endfor %}
+</ul>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if members.has_previous %}
+            <a href="?page={{ members.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ member.number }} of {{ members.paginator.num_pages }}.
+        </span>
+
+        {% if members.has_next %}
+            <a href="?page={{ members.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+    
+    
+    
+    
+    
+{% endblock %}
+
+

@@ -1,0 +1,34 @@
+[
+	{
+		"pk": 1,
+		"model": "roster.Mentor",
+		"fields": {
+			"name": "Sagula, Joe",
+			"position": "Head Coach"
+		}
+	},
+	{
+		"pk": 2,
+		"model": "roster.Mentor",
+		"fields": {
+			"name": "Rackham, Eve",
+			"position": "Assistant Head Coach"
+		}
+	},
+	{
+		"pk": 3,
+		"model": "roster.Mentor",
+		"fields": {
+			"name": "Adams, Tyler",
+			"position": "Assistant Coach"
+		}
+	},
+	{
+		"pk": 4,
+		"model": "roster.Mentor",
+		"fields": {
+			"name": "Charles, Jennifer",
+			"position": "Volunteer Assistant Coach"
+		}
+	}
+]
