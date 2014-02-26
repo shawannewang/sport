@@ -4,7 +4,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Kayla Berringer",
-			"number": "1"
+			"number": "1",
+			"year": "Senior",
+			"position": "OH/OPP"
 		}
 	},
 	{
@@ -12,7 +14,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Heather Gearhart",
-			"number": "2"
+			"number": "2",
+			"year": "Sophomore",
+			"position": "DS/L"
 		}
 	},
 	{
@@ -20,7 +24,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Leigh Andrew",
-			"number": "4"
+			"number": "4",
+			"year": "Sophomore",
+			"position": "OH"
 		}
 	},
 	{
@@ -28,7 +34,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Paige Neuenfeldt",
-			"number": "5"
+			"number": "5",
+			"year": "Sophomore",
+			"position": "MB"
 		}
 	},
 	{
@@ -36,7 +44,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Victoria McPherson",
-			"number": "7"
+			"number": "7",
+			"year": "Sophomore",
+			"position": "MB"
 		}
 	},
 	{
@@ -44,7 +54,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Lauren Adkins",
-			"number": "8"
+			"number": "8",
+			"year": "Junior",
+			"position": "OH"
 		}
 	},
 	{
@@ -52,7 +64,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Ece Taner",
-			"number": "9"
+			"number": "9",
+			"year": "Junior",
+			"position": "DS/L"
 		}
 	},
 	{
@@ -60,7 +74,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Chaniel Nelson",
-			"number": "10"
+			"number": "10",
+			"year": "Redshirt Junior",
+			"position": "OPP"
 		}
 	},
 	{
@@ -68,7 +84,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Sheila Doyle",
-			"number": "11"
+			"number": "11",
+			"year": "Freshman",
+			"position": "DS/L"
 		}
 	},
 	{
@@ -76,7 +94,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Kaitlyn Anderson",
-			"number": "12"
+			"number": "12",
+			"year": "Senior",
+			"position": "DS/S"
 		}
 	},
 	{
@@ -84,7 +104,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Jordyn Schnabl",
-			"number": "13"
+			"number": "13",
+			"year": "Sophomore",
+			"position": "S"
 		}
 	},
 	{
@@ -92,7 +114,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Jovana Bjelica",
-			"number": "14"
+			"number": "14",
+			"year": "Graduate Student",
+			"position": "OH"
 		}
 	},
 	{
@@ -100,7 +124,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Chaney LaReau",
-			"number": "16"
+			"number": "16",
+			"year": "Junior",
+			"position": "DS/L"
 		}
 	},
 	{
@@ -108,7 +134,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Abigail Curry",
-			"number": "17"
+			"number": "17",
+			"year": "Freshman",
+			"position": "S"
 		}
 	},
 	{
@@ -116,7 +144,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Tatiana Durr",
-			"number": "18"
+			"number": "18",
+			"year": "Freshman",
+			"position": "OH/MB"
 		}
 	},
 	{
@@ -124,7 +154,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Taylor Treacy",
-			"number": "20"
+			"number": "20",
+			"year": "Redshirt Freshman",
+			"position": "OH/MB"
 		}
 	},
 	{
@@ -132,7 +164,9 @@
 		"model": "roster.Member",
 		"fields": {
 			"name": "Hayley McCorkle",
-			"number": "21"
+			"number": "21",
+			"year": "Redshirt Freshman",
+			"position": "MB/OPP"
 		}
 	}
 ]
