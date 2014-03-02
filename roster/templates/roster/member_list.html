@@ -14,15 +14,32 @@
 {% endfor %}
 </ul>
     
+
+    
+    
+    
+    
+    
+    
     
     
     
 <html>
+    
+<script src="~DJANGO_PROJECTS/sport/sport/static_media/Highcharts-3.0.9/js/highcharts.js"></script>                
+<script src="~DJANGO_PROJECTS/sport/sport/static_media/Highcharts-3.0.9/js/modules/exporting.src.js"></script>
+    
     <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript">
-$(function () {
+                    
+                    
+                    
+jQuery( document ).ready(function( $ ) {
+// Code using $ as usual goes here.
+//});
+//$(function () {
         $('#container').highcharts({
             chart: {
                 type: 'column'
@@ -87,13 +104,11 @@ $(function () {
             }]
         });
     });
-    
+
 
 		</script>
 	</head>
 	<body>
-<script src="~DJANGO_PROJECTS/sport/sport/static_media/Highcharts-3.0.9/js/highcharts.js"</script>
-<script src="~DJANGO_PROJECTS/sport/sport/static_media/Highcharts-3.0.9/js/modules/exporting.src.js"></script>
 
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 

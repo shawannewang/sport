@@ -8,7 +8,11 @@
 			"number": "1",
 			"year": "Senior",
 			"height":"6'1",
-			"position": "OH/OPP"
+			"position": "OH/OPP",
+			"kill": "23 vs. Liberty (9/3/11)",
+			"attack": ".625 (11 - 1 - 16) vs. Georgia Southern (9/10/11)",
+			"block": "5 at Clemson (9/30/11)",
+			"dig": "6 vs. Miami (Fla.) (10/09/11)"
 		}
 	},
 	{
@@ -20,7 +24,11 @@
 			"number": "2",
 			"year": "Sophomore",
 			"height":"5'5",
-			"position": "DS/L"
+			"position": "DS/L",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -32,7 +40,11 @@
 			"number": "4",
 			"year": "Sophomore",
 			"height":"6'0",
-			"position": "OH"
+			"position": "OH",
+			"kill": "7 vs. Florida State (11/3/12)",
+			"attack": "0",
+			"block": "0",
+			"dig": "12 vs. Florida State (11/3/12)"
 		}
 	},
 	{
@@ -44,7 +56,11 @@
 			"number": "5",
 			"year": "Sophomore",
 			"height":"6'2",
-			"position": "MB"
+			"position": "MB",
+			"kill": "17 vs. Iowa State (11/30/12)",
+			"attack": ".591 (14-1-22) vs. Wake Forest (10/28/12)",
+			"block": "12 vs. Santa Clara (8/31/12)",
+			"dig": "0"
 		}
 	},
 	{
@@ -56,7 +72,11 @@
 			"number": "7",
 			"year": "Sophomore",
 			"height":"6'2",
-			"position": "MB"
+			"position": "MB",
+			"kill": "12 vs. NC State (11/21/12)",
+			"attack": "0",
+			"block": "5 vs. Iowa State (11/30/12)",
+			"dig": "0"
 		}
 	},
 	{
@@ -68,7 +88,11 @@
 			"number": "8",
 			"year": "Junior",
 			"height":"6'0",
-			"position": "OH"
+			"position": "OH",
+			"kill": "15 vs. Ohio (9/15/12) and vs. Virginia Tech (10/14/12)",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -80,7 +104,11 @@
 			"number": "9",
 			"year": "Junior",
 			"height":"5'6",
-			"position": "DS/L"
+			"position": "DS/L",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "28 vs. Long Beach State (8/25/12) and vs. Duke (9/23/12)"
 		}
 	},
 	{
@@ -92,7 +120,11 @@
 			"number": "10",
 			"year": "Redshirt Junior",
 			"height":"6'2",
-			"position": "OPP"
+			"position": "OPP",
+			"kill": "20 at Miami (11/4/11)",
+			"attack": "0",
+			"block": "10 vs. California (12/1/11) and vs. Iowa State (11/30/12)",
+			"dig": "0"
 		}
 	},
 	{
@@ -104,7 +136,11 @@
 			"number": "11",
 			"year": "Freshman",
 			"height":"5'5",
-			"position": "DS/L"
+			"position": "DS/L",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -116,7 +152,11 @@
 			"number": "12",
 			"year": "Senior",
 			"height":"5'9",
-			"position": "DS/S"
+			"position": "DS/S",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "21 vs. Miami (10/9/11)"
 		}
 	},
 	{
@@ -128,7 +168,11 @@
 			"number": "13",
 			"year": "Sophomore",
 			"height":"5'9",
-			"position": "S"
+			"position": "S",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "14 vs. Ohio (9/15/12)"
 		}
 	},
 	{
@@ -140,7 +184,11 @@
 			"number": "14",
 			"year": "Graduate Student",
 			"height":"5'10",
-			"position": "OH"
+			"position": "OH",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -152,7 +200,11 @@
 			"number": "16",
 			"year": "Junior",
 			"height":"5'9",
-			"position": "DS/L"
+			"position": "DS/L",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -164,7 +216,11 @@
 			"number": "17",
 			"year": "Freshman",
 			"height":"5'8",
-			"position": "S"
+			"position": "S",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -176,7 +232,11 @@
 			"number": "18",
 			"year": "Freshman",
 			"height":"6'1",
-			"position": "OH/MB"
+			"position": "OH/MB",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -188,7 +248,11 @@
 			"number": "20",
 			"year": "Redshirt Freshman",
 			"height":"6'2",
-			"position": "OH/MB"
+			"position": "OH/MB",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	},
 	{
@@ -200,7 +264,11 @@
 			"number": "21",
 			"year": "Redshirt Freshman",
 			"height":"6'0",
-			"position": "MB/OPP"
+			"position": "MB/OPP",
+			"kill": "0",
+			"attack": "0",
+			"block": "0",
+			"dig": "0"
 		}
 	}
 ]
