@@ -3,16 +3,33 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Member: {{ member.name }}</h2>
+<h2>{{ member.name }}</h2>
 
 <div class="row">
 	<div class="col-md-6">
-		<p>Details</p>
-		<ul>
+		<div><img src="{{ member.imageurl }}"></div>	
+		<!--<ul>
 			<li>Number: {{ member.number }}</li>	
 			<li>Year: {{ member.year }} </li>
 			<li>Position: {{ member.position }}</li>
 		</ul>
 	</div>
-</div>
+</div>-->
+
+<table id="roster-table" class="table " cellspacing="0" cellpadding="0">
+
+    <thead>
+        <tr>
+            <th class="number ts-header">{{ member.number }}</th>
+            <th class="name ts-header">{{ member.name }}</th>
+            <th class="position ts-header">{{ member.position }}</th>
+            <th class="height hidden-phone ts-header">{{ member.height }}</th>
+            <th class="year ts-header">{{ member.year }}</th>
+            <th class="hometown hidden-phone ts-header"></th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+
+</table>
+
 {% endblock %}

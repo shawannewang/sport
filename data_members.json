@@ -3,9 +3,11 @@
 		"pk": 1,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/HD/HDBHUHHLXJMIODU.20130808212224.jpg",
 			"name": "Kayla Berringer",
 			"number": "1",
 			"year": "Senior",
+			"height":"6'1",
 			"position": "OH/OPP"
 		}
 	},
@@ -13,9 +15,11 @@
 		"pk": 2,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/BE/BEOBQPXLPBZIOYY.20130808212239.jpg",
 			"name": "Heather Gearhart",
 			"number": "2",
 			"year": "Sophomore",
+			"height":"5'5",
 			"position": "DS/L"
 		}
 	},
@@ -23,9 +27,11 @@
 		"pk": 3,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/LO/LOUUNHRLLVKSCDX.20130808212221.jpg",
 			"name": "Leigh Andrew",
 			"number": "4",
 			"year": "Sophomore",
+			"height":"6'0",
 			"position": "OH"
 		}
 	},
@@ -33,9 +39,11 @@
 		"pk": 4,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/SL/SLCJOMEECPCOWKT.20130808212251.jpg",
 			"name": "Paige Neuenfeldt",
 			"number": "5",
 			"year": "Sophomore",
+			"height":"6'2",
 			"position": "MB"
 		}
 	},
@@ -43,9 +51,11 @@
 		"pk": 5,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/SJ/SJBWKXOMLBNUBRT.20130808212246.jpg",
 			"name": "Victoria McPherson",
 			"number": "7",
 			"year": "Sophomore",
+			"height":"6'2",
 			"position": "MB"
 		}
 	},
@@ -53,9 +63,11 @@
 		"pk": 6,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/MX/MXSBPGLXTIPHFXE.20130808212216.jpg",
 			"name": "Lauren Adkins",
 			"number": "8",
 			"year": "Junior",
+			"height":"6'0",
 			"position": "OH"
 		}
 	},
@@ -63,9 +75,11 @@
 		"pk": 7,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/YZ/YZVXXGLMIDCSVLA.20130808212300.jpg",
 			"name": "Ece Taner",
 			"number": "9",
 			"year": "Junior",
+			"height":"5'6",
 			"position": "DS/L"
 		}
 	},
@@ -73,9 +87,11 @@
 		"pk": 8,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/TX/TXMRTLBEHYKZFDB.20130808212249.jpg",
 			"name": "Chaniel Nelson",
 			"number": "10",
 			"year": "Redshirt Junior",
+			"height":"6'2",
 			"position": "OPP"
 		}
 	},
@@ -83,9 +99,11 @@
 		"pk": 9,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/DQ/DQMYVRBNVMBKOJB.20130808212234.jpg",
 			"name": "Sheila Doyle",
 			"number": "11",
 			"year": "Freshman",
+			"height":"5'5",
 			"position": "DS/L"
 		}
 	},
@@ -93,9 +111,11 @@
 		"pk": 10,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/QS/QSCAUJMVKAIJGLU.20130808212219.jpg",
 			"name": "Kaitlyn Anderson",
 			"number": "12",
 			"year": "Senior",
+			"height":"5'9",
 			"position": "DS/S"
 		}
 	},
@@ -103,9 +123,11 @@
 		"pk": 11,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/GC/GCFLOJXKBJYXEIB.20130808212257.jpg",
 			"name": "Jordyn Schnabl",
 			"number": "13",
 			"year": "Sophomore",
+			"height":"5'9",
 			"position": "S"
 		}
 	},
@@ -113,9 +135,11 @@
 		"pk": 12,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/KX/KXPZXEQZKJMRIWY.20130808212228.jpg",
 			"name": "Jovana Bjelica",
 			"number": "14",
 			"year": "Graduate Student",
+			"height":"5'10",
 			"position": "OH"
 		}
 	},
@@ -123,9 +147,11 @@
 		"pk": 13,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/ZF/ZFHSSEVNNMARGQD.20130808212241.jpg",
 			"name": "Chaney LaReau",
 			"number": "16",
 			"year": "Junior",
+			"height":"5'9",
 			"position": "DS/L"
 		}
 	},
@@ -133,9 +159,11 @@
 		"pk": 14,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/LE/LEAPRXJLYGWBWRT.20130808212232.jpg",
 			"name": "Abigail Curry",
 			"number": "17",
 			"year": "Freshman",
+			"height":"5'8",
 			"position": "S"
 		}
 	},
@@ -143,9 +171,11 @@
 		"pk": 15,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/UU/UUSAZDOUFFIVJAK.20130808212237.jpg",
 			"name": "Tatiana Durr",
 			"number": "18",
 			"year": "Freshman",
+			"height":"6'1",
 			"position": "OH/MB"
 		}
 	},
@@ -153,9 +183,11 @@
 		"pk": 16,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/BI/BIBFPEWMJAVXZJY.20130808212305.jpg",
 			"name": "Taylor Treacy",
 			"number": "20",
 			"year": "Redshirt Freshman",
+			"height":"6'2",
 			"position": "OH/MB"
 		}
 	},
@@ -163,9 +195,11 @@
 		"pk": 17,
 		"model": "roster.Member",
 		"fields": {
+			"imageurl":"http://image.cdnllnwnl.xosnetwork.com/pics33/400/YW/YWHGNMTHZLFVCPZ.20130808212244.jpg",
 			"name": "Hayley McCorkle",
 			"number": "21",
 			"year": "Redshirt Freshman",
+			"height":"6'0",
 			"position": "MB/OPP"
 		}
 	}

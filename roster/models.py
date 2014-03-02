@@ -7,14 +7,15 @@ class Member(models.Model):
 	number = models.CharField(unique=True, max_length=12)
 	year = models.CharField(unique=False, max_length=10)
 	position = models.CharField(unique=False, max_length=20)
-	hometown = models.TextField(unique=False)
+	height = models.TextField(unique=False, max_length=3)
+	imageurl = models.TextField(unique=False, null=True)
 
 	class Meta(object):
 		verbose_name_plural = 'Members'
-		ordering = ('name', 'number')
+		ordering = ('name', 'number', 'year', 'height', 'position')
 
 	def __unicode__(self):
-		return U'%s %s' %(self.name, self.number)
+		return U'%s %s %s %s %s' %(self.name, self.number, self.year, self.height, self.position)
 
 	def save(self, *args, **kwargs):
 		self.name = self.name.upper()

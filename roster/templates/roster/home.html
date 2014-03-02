@@ -4,10 +4,21 @@
 {% load url from future %}
 
 {% block content %}
-<h1>Students and Classes</h1>
-<p>This year's UNC Volleyball Team has {{ member_count }} team members and {{ mentor_count }} mentors.</p>
+<h1>UNC Women's Varsity Rosters '13-'14</h1>
+<div class="row">
 
-<p><a href="{% url 'roster_mentor_list' %}"></a></p>
-<p><a href="{% url 'roster_member_list' %}"></a></p>
+<h4>Basketball</h4>
+<p><a href="#">Mentors</a></p>
+<p><a href="#">Members</a></p>
+<h4>Cross Country</h4>
+<p><a href="#">Mentors</a></p>
+<p><a href="#">Members</a></p>
+<h4>Fencing</h4>
+<p><a href="#">Mentors</a></p>
+<p><a href="#">Members</a></p>
+<h4>Volleyball</h4>
+<p><a href="{% url 'roster_mentor_list' %}">Mentors</a></p>
+<p><a href="{% url 'roster_member_list' %}">Players</a></p>
 
+</div>
 {% endblock %}
