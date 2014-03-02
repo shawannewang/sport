@@ -193,6 +193,7 @@ th {
   }
   a,
   a:visited {
+    color: purple;
     text-decoration: underline;
   }
   a[href]:after {
@@ -276,8 +277,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: #FFF;
+  background-color: #56A0D3;
 }
 input,
 button,
@@ -288,12 +289,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #fff;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: pink;
   text-decoration: underline;
 }
 a:focus {

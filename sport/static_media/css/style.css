@@ -2,15 +2,53 @@
 
 body
 {
-background-color:#d0e4fe;
+background-color:#FFF;
 }
 h1
 {
-color:#56A0D3;
+color:#fff;
 text-align:center;
+font-family: fantasy;
+}
+h2
+{
+text-align: center;    
 }
 h4
 {
-font-family:"Arial";
+color: #000;
+font-family:fantasy;
 font-size:20px;
+}
+h5
+{
+text-align: center;
+}
+li
+{
+color: #000;
+list-style-type: none;
+}
+
+
+
+
+#roster-table .ts-header {
+    cursor: auto;
+    background: url("/fls/0/site_graphics/bg.gif") no-repeat scroll right center rgb(141, 185, 229);
+}
+#RosterBody th, #RosterBody td {
+    border-width: 1px 1px 0px 0px;
+    border-style: solid solid none none;
+    border-color: rgb(176, 176, 176) rgb(205, 205, 205) -moz-use-text-color -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 3px;
+    font-family: 'Roboto';
 }
