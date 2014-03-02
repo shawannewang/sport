@@ -1,0 +1,16 @@
+@import url(static_media/css/bootstrap.css)
+
+body
+{
+background-color:#d0e4fe;
+}
+h1
+{
+color:#56A0D3;
+text-align:center;
+}
+h4
+{
+font-family:"Arial";
+font-size:20px;
+}
