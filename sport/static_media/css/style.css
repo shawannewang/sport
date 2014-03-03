@@ -10,10 +10,52 @@ color:#fff;
 text-align:center;
 font-family: fantasy;
 }
+
+#sports {
+text-align: center
+}
+
+.information {
+color: rgb(31, 45, 92);
+font-family: fantasy;
+font-size: large;
+}
+
+.texts {
+color: #000;
+}
+
+.wrapper{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+}
+
+#list {
+text-align: center
+}
+
+#pos_right{
+float: right;
+}
+
+img.one
+{
+border-style: groove;
+border-width:5px;
+border-color: black;
+text-align: center;
+}
+
 h2
 {
 text-align: center;    
 }
+
+h2.background{
+background-color: rgb(31, 45, 92);
+}
+
 h4
 {
 color: #000;

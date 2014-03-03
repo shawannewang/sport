@@ -12,14 +12,15 @@ class Member(models.Model):
 	attack = models.TextField(unique=False)
 	block = models.TextField(unique=False)
 	dig = models.TextField(unique=False)
+	personal = models.TextField(unique=False)
 	imageurl = models.TextField(unique=False, null=True)
 
 	class Meta(object):
 		verbose_name_plural = 'Members'
-		ordering = ('name', 'number', 'year', 'height', 'position', 'kill', 'attack', 'block', 'dig')
+		ordering = ('name', 'number', 'year', 'height', 'position', 'kill', 'attack', 'block', 'dig', 'personal')
 
 	def __unicode__(self):
-		return U'%s %s %s %s %s %s %s %s %s' %(self.name, self.number, self.year, self.height, self.position, self.kill, self.attack, self.block, self.dig)
+		return U'%s %s %s %s %s %s %s %s %s %s' %(self.name, self.number, self.year, self.height, self.position, self.kill, self.attack, self.block, self.dig, self.personal)
 
 	def save(self, *args, **kwargs):
 		self.name = self.name.upper()
