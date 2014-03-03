@@ -21,6 +21,12 @@ float: right;
 position: relative;
 }
 
+.morefloat{
+float: right;
+position: relative;
+left: 10px
+}
+
 .thumbnail
 {
 float:right;
@@ -79,6 +85,7 @@ text-align: center;
 
 h2.background{
 background-color: rgb(31, 45, 92);
+font-family: Georgia, serif;
 }
 
 h4
