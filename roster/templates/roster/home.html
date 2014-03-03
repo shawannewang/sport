@@ -19,6 +19,48 @@ document.getElementById("desc").innerHTML=txt;
     
 <h1>UNC Women's Varsity Rosters 2013
 <img src="http://image.cdnllnwnl.xosnetwork.com/fls/3350/site_graphics/2013/footerBranding.png"></h1>
+
+<div class="centers">
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Sports</a>
+			<ul>
+				<li><a href="{% url 'roster_member_list' %}">Volleyball</a></li>
+                                        <ul>
+						<li><a href="{% url 'roster_mentor_list' %}">Mentors</a></li>
+						<li><a href="{% url 'roster_member_list' %}">Players</a></li>
+					</ul>
+				<li><a href="#">Basketball</a></li>
+                                <li><a href="#">Cross Country</a></li>
+				<li><a href="#">Fencing</a>
+                                <li><a href="#">Field Hockey</a>
+                                <li><a href="#">Golf</a>
+                                <li><a href="#">Gymnastics</a>
+                                <li><a href="#">Lacrosse</a>
+                                <li><a href="#">Rowing</a>
+                                <li><a href="#">Soccer</a>
+                                <li><a href="#">Softball</a>
+                                <li><a href="#">Swimming & Diving</a>
+                                <li><a href="#">Tennis</a>
+				<li><a href="#">Track</a>	
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">News</a>
+			<ul>
+				<li><a href="#">Hall of Fame</a></li>
+				<li><a href="#">Fans</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Join Today</a></li>
+	</ul>
+</nav>
+</div>
+
+
+
+
 <div class="row">
 
 
@@ -37,7 +79,7 @@ href ="sun.htm" target ="_blank" alt="Sun" />
 </body>
 </html>
 
-<p id="sports"><a href="{% url 'roster_mentor_list' %}">Mentors</a></p>
+<!--<p id="sports"><a href="{% url 'roster_mentor_list' %}">Mentors</a></p>
 <p id="sports"><a href="{% url 'roster_member_list' %}">Players</a></p>
 <h4 id="sports">Basketball</h4>
 <p id="sports"><img class="one" src="http://image.cdnllnwnl.xosnetwork.com/pics33/1024/PP/PPWNSKMXTEWWTTT.20140302202543.jpg" height="400" style="max-width: 600px"></p>
@@ -51,8 +93,20 @@ href ="sun.htm" target ="_blank" alt="Sun" />
 <p id="sports"><img class="one" src="http://image.cdnllnwnl.xosnetwork.com/pics33/1024/SV/SVPKJCGZYSRENNN.20140224014235.jpg" height="400" style="max-width: 600px"></p>
 <p id="sports"><a href="#">Mentors</a></p>
 <p id="sports"><a href="#">Members</a></p>
+<h4 id="sports">Field Hockey</h4>
+<h4 id="sports">Golf</h4>
+<h4 id="sports">Gymnastics</h4>
+<h4 id="sports">Lacross</h4>
+<h4 id="sports">Rowing</h4>
+<h4 id="sports">Soccer</h4>
+<h4 id="sports">Softball</h4>
+<h4 id="sports">Swimming and Diving</h4>
+<h4 id="sports">Tennis</h4>
+<h4 id="sports">Track</h4>
 
-</div>
+</div>-->
+
+
 
 
 
