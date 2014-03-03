@@ -3,7 +3,20 @@
 {% load humanize %"}
 {% load url from future %}
 
-{% block content %}
+{% block content %}    
+    
+    
+    
+<html>
+<head>
+<script>
+function writeText(txt)
+{
+document.getElementById("desc").innerHTML=txt;
+}
+</script>
+</head>
+    
 <h1>UNC Women's Varsity Rosters 2013
 <img src="http://image.cdnllnwnl.xosnetwork.com/fls/3350/site_graphics/2013/footerBranding.png"></h1>
 <div class="row">
@@ -12,7 +25,18 @@
 
 
 <h4 id="sports">Volleyball</h4>
-<p id="sports"><img class="one" src="http://image.cdnllnwnl.xosnetwork.com/pics32/1024/KA/KARZOZHSQXLGHDP.20120618214754.jpeg" height="400" style="max-width: 600px"></p>
+<p id="sports"><img class="one" src="http://image.cdnllnwnl.xosnetwork.com/pics32/1024/KA/KARZOZHSQXLGHDP.20120618214754.jpeg" height="400" style="max-width: 600px" alt="Planets" usemap="#planetmap"></p>
+
+<map name="planetmap">
+<area shape ="rect" coords ="0,0,82,126"
+onmouseover="writeText('Team members hard at work during practice.')"
+href ="sun.htm" target ="_blank" alt="Sun" />
+
+<p id="desc" class="centers">(Mouse over the picture for description.)</p>
+
+</body>
+</html>
+
 <p id="sports"><a href="{% url 'roster_mentor_list' %}">Mentors</a></p>
 <p id="sports"><a href="{% url 'roster_member_list' %}">Players</a></p>
 <h4 id="sports">Basketball</h4>
@@ -29,8 +53,6 @@
 <p id="sports"><a href="#">Members</a></p>
 
 </div>
-
-
 
 
 
