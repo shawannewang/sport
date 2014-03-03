@@ -11,8 +11,26 @@ text-align:center;
 font-family: fantasy;
 }
 
+
 #sports {
 text-align: center
+}
+
+#pos_right{
+float: right;
+position: relative;
+}
+
+.thumbnail
+{
+float:right;
+width:1px;
+height:1px;
+margin:50px;
+}
+
+.pos_right {
+float: right;
 }
 
 .information {
@@ -21,9 +39,20 @@ font-family: fantasy;
 font-size: large;
 }
 
+.centers {
+text-align: center;
+}
+
 .texts {
 color: #000;
 }
+
+#lalala {
+background-color: #1E90FF;
+border-radius: 20px;
+border-color: #000000;
+}
+
 
 .wrapper{
     width:100px;
@@ -33,10 +62,6 @@ color: #000;
 
 #list {
 text-align: center
-}
-
-#pos_right{
-float: right;
 }
 
 img.one
@@ -77,7 +102,7 @@ list-style-type: none;
 
 #roster-table .ts-header {
     cursor: auto;
-    background: url("/fls/0/site_graphics/bg.gif") no-repeat scroll right center rgb(141, 185, 229);
+    background: url("http://image.cdnllnwnl.xosnetwork.com/fls/3350/site_graphics/2013/logo.png") no-repeat scroll right center rgb(141, 185, 229);
 }
 #RosterBody th, #RosterBody td {
     border-width: 1px 1px 0px 0px;
@@ -93,4 +118,9 @@ list-style-type: none;
     font-size: 16px;
     padding: 3px;
     font-family: 'Roboto';
+}
+
+#RosterBody .table {
+    width: 98%;
+    margin-bottom: 20px;
 }

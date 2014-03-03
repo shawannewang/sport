@@ -5,17 +5,6 @@
 {% block content %}
 <h2 class="background">{{ member.name }}</h2>
 
-<div class="row">
-	<div class="col-md-6">
-		<div><img src="{{ member.imageurl }}"></div>	
-		<!--<ul>
-			<li>Number: {{ member.number }}</li>	
-			<li>Year: {{ member.year }} </li>
-			<li>Position: {{ member.position }}</li>
-		</ul>
-	</div>
-</div>-->
-
 <table id="roster-table" class="table " cellspacing="0" cellpadding="0">
 
     <thead>
@@ -25,22 +14,24 @@
             <th class="position ts-header">{{ member.position }}</th>
             <th class="height hidden-phone ts-header">{{ member.height }}</th>
             <th class="year ts-header">{{ member.year }}</th>
-            <th class="hometown hidden-phone ts-header"></th>
         </tr>
     </thead>
     <tbody></tbody>
     
 </table>
 
-<div>
-<p class="information">Personal Information</p>
-<p class="texts">{{ member.personal }}</p>
-	
-</div>
 
-
-Career Highs:
-<table border="1">
+<div class="row">
+	<!--<div class="col-md-6">-->
+		
+		<div>
+			
+			<img src="{{ member.imageurl }}">
+			<p class="information">Information</p>
+			<p class="texts">{{ member.personal }}</p>
+		
+		<p class="information">Career Highs:</p>
+<table border="3">
 	<tbody>
 	<tr>
 		<td><strong>Kills</strong></td>
@@ -56,5 +47,20 @@ Career Highs:
 	</tr>
 	</tbody>
 </table>
+				
+		
+		</div>
+
+
+		<!--<ul>
+			<li>Number: {{ member.number }}</li>	
+			<li>Year: {{ member.year }} </li>
+			<li>Position: {{ member.position }}</li>
+		</ul>-->
+	</div>
+</div>
+
+
+</div>
 
 {% endblock %}
